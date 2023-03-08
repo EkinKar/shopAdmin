@@ -10,7 +10,12 @@ const Home = () => {
   return (
     <div className="home">
       <FeaturedInfo />
-      <Chart data={userData} title="User Analytics" grid dataKey="name" />
+      <Chart
+        data={userData}
+        title="User Analytics"
+        grid
+        dataKey="Active User"
+      />
       <div className="homeWidget">
         <SmallWidget />
         <LargeWidget />

@@ -224,3 +224,30 @@ export const productRows = [
     price: "$120.00",
   },
 ];
+
+export const productData = [
+  {
+    name: "Jan",
+    Sales: 4000,
+  },
+  {
+    name: "Feb",
+    Sales: 3000,
+  },
+  {
+    name: "Mar",
+    Sales: 5000,
+  },
+  {
+    name: "Apr",
+    Sales: 4000,
+  },
+  {
+    name: "May",
+    Sales: 2000,
+  },
+  {
+    name: "Jun",
+    Sales: 1000,
+  },
+];

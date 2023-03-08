@@ -7,7 +7,6 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  Legend,
 } from "recharts";
 
 const Chart = ({ title, data, dataKey, grid }) => {
@@ -16,11 +15,10 @@ const Chart = ({ title, data, dataKey, grid }) => {
       <h3 className="chartTitle">{title}</h3>
       <ResponsiveContainer width="100%" aspect={4 / 1}>
         <LineChart data={data}>
-          <XAxis dataKey={dataKey} stroke="#5550bd" />
-          <Legend />
+          <XAxis dataKey="name" stroke="#5550bd" />
+          <Line type="monotone" dataKey={dataKey} stroke="#5550bd" />
           <Tooltip wrapperStyle={{ outline: "none" }} />
           {grid && <CartesianGrid stroke="#e0dfdf" strokeDasharray="5 5" />}
-          <Line type="monotone" dataKey="Active User" stroke="#5550bd" />
         </LineChart>
       </ResponsiveContainer>
     </div>
