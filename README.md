@@ -3,9 +3,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Demo 
-
+Demo admin panel ui project.
 You can see the website demo here: https://shopadmin.ekinkar.com/
 
+## Screenshots
+
+![Screenshot_10](https://github.com/EkinKar/shopAdmin/assets/56177544/ff2f9450-ab9c-4954-bd03-a6e60b518026)
+***
+![Screenshot_11](https://github.com/EkinKar/shopAdmin/assets/56177544/3c1f80b3-8859-4f4a-be7b-14a08fe82e8c)
+***
+![Screenshot_12](https://github.com/EkinKar/shopAdmin/assets/56177544/3785be1c-cfaf-4df3-9d0b-abf06ba19344)
+***
+![Screenshot_13](https://github.com/EkinKar/shopAdmin/assets/56177544/7381335b-1e13-4414-aa62-c6db79720a0c)
+***
 ## Available Scripts
 
 In the project directory, you can run:
